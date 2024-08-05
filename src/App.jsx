@@ -11,7 +11,7 @@ function App() {
   const handleGetStartedClick = () => {
     setShowProductList(true);
   };
-
+  
   return (
     <div className="app-container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
@@ -40,6 +40,3 @@ function App() {
 }
 
 export default App;
-
-
-
